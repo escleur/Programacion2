@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversor", "Conversor\Conversor.csproj", "{8A007FD2-71F4-46BD-A2CA-332A49FE19CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorNumerico", "WindowsFormsApp1\ConversorNumerico.csproj", "{DAA7A3DE-A9E1-414B-BA46-FD0BF1F20919}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A007FD2-71F4-46BD-A2CA-332A49FE19CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A007FD2-71F4-46BD-A2CA-332A49FE19CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A007FD2-71F4-46BD-A2CA-332A49FE19CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A007FD2-71F4-46BD-A2CA-332A49FE19CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA7A3DE-A9E1-414B-BA46-FD0BF1F20919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA7A3DE-A9E1-414B-BA46-FD0BF1F20919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA7A3DE-A9E1-414B-BA46-FD0BF1F20919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA7A3DE-A9E1-414B-BA46-FD0BF1F20919}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {992D4A9E-E22F-456C-9CC4-27495E97CCD4}
+	EndGlobalSection
+EndGlobal
