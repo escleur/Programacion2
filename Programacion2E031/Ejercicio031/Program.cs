@@ -11,6 +11,9 @@ namespace Ejercicio031
     {
         static void Main(string[] args)
         {
+            Negocio n1 = new Negocio("La Martina");
+
+
             Cliente c1 = new Cliente(1, "Diego");
             Cliente c2 = new Cliente(2, "Suzana");
             Cliente c3 = new Cliente(3, "Pedro");
@@ -19,11 +22,10 @@ namespace Ejercicio031
             Cliente c6 = new Cliente(6, "Liliana");
             Cliente c7 = new Cliente(7, "Maria");
             Cliente c8 = new Cliente(8, "Celma");
-            Cliente c9 = new Cliente(10, "Dionisio");
-            Cliente c10 = new Cliente(7, "Putin");
+            Cliente c9 = new Cliente(9, "Dionisio");
+            Cliente c10 = new Cliente(10, "Putin");
             Cliente c11 = new Cliente(11, "Carola");
 
-            Negocio n1 = new Negocio("La Martina");
             if (n1 + c1)
             {
                 Console.WriteLine("Cliente agregado");

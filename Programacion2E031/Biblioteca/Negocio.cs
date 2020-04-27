@@ -20,10 +20,7 @@ namespace Biblioteca
             }
             set
             {
-                if (this != value)
-                {
-                    this.clientes.Enqueue(value);
-                }
+                bool retorno = (this + value);
             }
         }
         public int ClientesPendientes
