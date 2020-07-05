@@ -23,6 +23,11 @@ namespace Entidades
             {
                 this.contenidoML = capacidadML;
             }
+            else
+            {
+                this.contenidoML = contenidoML;
+            }
+
             
         }
 
@@ -60,7 +65,7 @@ namespace Entidades
 
         public abstract int ServirMedida();
         
-        protected virtual string generarInforme()
+        protected virtual string GenerarInforme()
         {
 
             StringBuilder sb = new StringBuilder();
@@ -74,7 +79,7 @@ namespace Entidades
         }
         public override string ToString()
         {
-            return this.generarInforme();
+            return this.GenerarInforme();
         }
     }
 }
